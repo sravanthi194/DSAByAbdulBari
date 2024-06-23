@@ -31,7 +31,8 @@ int main()
   struct Rectangle *p1 ;
   // creating in object in heap 
   p1=new struct Rectangle; //after new keyword we use datatype so here it is struct for which there can be many so specify here it is Rectangle
-  
+
+  //p1=new Rectangle; also works
   //or
   //struct Rectangle *p1 = new struct Rectangle ;
   //assigning values

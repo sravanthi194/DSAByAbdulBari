@@ -1,5 +1,5 @@
 #include<iostream>
-using namepsace std;
+using namespace std;
 
 void func()
 {
@@ -8,7 +8,7 @@ void func()
 
 int main()
 {
-cout<<"Hello from main function ";
+cout<<"Hello from main function "<<endl;
   func();
   
 }

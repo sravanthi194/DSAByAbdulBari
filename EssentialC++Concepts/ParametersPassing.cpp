@@ -40,6 +40,22 @@ void swap(int &a ,int &b) //when a and b are created these are aliases or nickna
     b=temp;
 }
 
+//misc
+void swap(int &a ,int b) //when a and b are created these are aliases or nicknames for x and y (actual parameters)
+{
+    int temp;   
+    temp=a;  //no change inside a also value 10 as x so directly can store in int variable temp
+    a=b;
+    b=temp;  //op of x and y 5 5
+}
+void swap(int &a ,int *b) //when a and b are created these are aliases or nicknames for x and y (actual parameters)
+{
+    int temp;   
+    temp=a;  //no change inside a also value 10 as x so directly can store in int variable temp
+    a=*b;
+    *b=temp;   // op of x and y 5 10
+}
+
 int main()
 {
     int x,y,z;

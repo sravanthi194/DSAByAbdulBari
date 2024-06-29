@@ -13,7 +13,8 @@ return (0.5*length*breadth);
 //Modular programming everything inside main()
 int main()
 {
-    int length,breadth;
+    int length=0,breadth=0;
+  cin>>"Enter Length And Breadth"<<endl;
     cin>>length>>breadth;
     
     //area 

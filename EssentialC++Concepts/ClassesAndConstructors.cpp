@@ -23,10 +23,10 @@ int perimeter()
 return 2*(length+breadth);
 }
 };
-//Modular programming everything inside main()
+//Classes and Constructors
 int main()
 {
-    //  Rectangle r={0,0}; //direct initialize won't possible for private data members by default all are public
+    //  Rectangle r={0,0}; //direct initialize won't possible for private data members by default all are private
     //Rectangle r; if no constructor and direct initialize function is there this works
     
     Rectangle r(0,0);

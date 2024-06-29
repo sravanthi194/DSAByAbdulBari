@@ -8,7 +8,7 @@ int area(int length,int breadth)
 
 int perimeter(int length,int breadth)
 {
-return (0.5*length*breadth);
+return 2*(length+breadth);
 }
 //Modular programming everything inside main()
 int main()

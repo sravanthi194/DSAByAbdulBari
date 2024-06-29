@@ -26,7 +26,7 @@ return 2*(length+breadth);
 //Modular programming everything inside main()
 int main()
 {
-    Rectangle r; //direct initialize won't possible for private data members by default all are public
+    Rectangle r; //direct initialize won't possible for private data members by default all are private
      //Rectangle r(0,0);
     cout<<"Enter Length And Breadth"<<endl;
     // cin>>r.length>>r.breadth;

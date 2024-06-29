@@ -1,11 +1,13 @@
 #include<iostream>
 using namespace std;
 
-struct Rectangle
-{
+class Rectangle
+{ 
+private:
     int length;
     int breadth;
-
+    
+public:
 Rectangle(int length,int breadth)
 {
     this->length=length;
@@ -21,10 +23,13 @@ int perimeter()
 return 2*(length+breadth);
 }
 };
-//Classes And Constructors
+//Modular programming everything inside main()
 int main()
 {
-    struct Rectangle r={0,0};
+    //  Rectangle r={0,0}; //direct initialize won't possible for private data members by default all are public
+    //Rectangle r; if no constructor and direct initialize function is there this works
+    
+    Rectangle r(0,0);
     cout<<"Enter Length And Breadth"<<endl;
     // cin>>r.length>>r.breadth;
      

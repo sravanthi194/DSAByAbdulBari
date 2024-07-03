@@ -4,7 +4,7 @@ using namespace std;
      if(n>0)
      {
          cout<<n<<" ";
-         func(n-1);  ///tail recurrsion 54321 if n=5
+         func(n-1);  ///tail recurrsion 5 4 3 2 1 if n=5
      }
  }
  
